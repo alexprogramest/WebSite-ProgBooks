@@ -231,6 +231,8 @@ section.sign_in_or_sign_up-main-section .main-form .name-field{
 	padding-left: 27px;
 	box-sizing: border-box;
 	font-size: 16px;
+	border-radius: 4px;
+	border: 1px solid rgba(106, 106, 106, 1);
 }
 
 section.sign_in_or_sign_up-main-section .main-form .password-field{
@@ -238,6 +240,8 @@ section.sign_in_or_sign_up-main-section .main-form .password-field{
 	padding-left: 27px;
 	box-sizing: border-box;
 	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid rgba(106, 106, 106, 1);
 }
 
 

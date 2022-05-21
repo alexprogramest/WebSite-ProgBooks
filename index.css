@@ -5,7 +5,7 @@
 }
 .header{
 	width: 100%;
-	height: 1080px;
+	height: 1040px;
 	background-color: #CE8D66;
 	min-width: 303px;
 }
@@ -14,7 +14,7 @@ nav {
 	padding-left: 12px;
 	padding-right: 12px;
 	padding-top: 56px;
-	display: flex;
+	display: flex;	
 	align-items: center;
 	justify-content: center;
 }
@@ -192,9 +192,10 @@ ul.other-langs li div.main-content-lang-list div.name-lang-select a{
 .lending-main-content {
 	width: 100%;
 	height: 842px;
+	margin-top: 15px;
 	padding-top: 3px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .lending-main-content .left-side{
@@ -255,13 +256,9 @@ ul.other-langs li div.main-content-lang-list div.name-lang-select a{
 	transform: translate(12px, 12px);
 }
 
-
-/*.lending-main-content .right-image{
-	flex-basis: auto; 
-	width:auto;
-	flex-shrink: 6;
-}*/
-
+.lending-main-content .right-image{
+	margin-top: 40px;
+}
 
 .icons-images img {
 	position: absolute;
@@ -436,7 +433,7 @@ ul.other-langs li div.main-content-lang-list div.name-lang-select a{
 	width: 100%;
 	height: 800px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	background: linear-gradient(0deg, rgba(166, 193, 181, 0.3), rgba(166, 193, 181, 0.3)), 
 	url(images/lending/stripes-light.png);
 	min-width: 303px;
@@ -517,7 +514,7 @@ ul.other-langs li div.main-content-lang-list div.name-lang-select a{
 
 .right-content{
 	padding-top: 170px;
-	padding-left: 142px;
+	padding-left: 122px;
 	width: 658px;
 	height: 459px;
 }
@@ -611,8 +608,9 @@ footer{
 }
 
 .footer-main-content .social-network-info > a{
-	display: block;
+	padding-top: 10px;
 	padding-left: 30px;
+	display: block;
 	transition: 0.5s;
 }
 .footer-main-content .social-network-info > a:hover{

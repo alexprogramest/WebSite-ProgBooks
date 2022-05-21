@@ -213,12 +213,13 @@ section.premium-main-section .main-content {
 	width: 1187px;
 	padding-top: 73px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 section.premium-main-section .main-content .card{
 	width: 475px;
 	height: 760px;
+	margin: 0 100px;
 	background: #FFFFFF;
 	border-radius: 66px;
 	display: flex;
